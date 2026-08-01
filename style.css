@@ -73,7 +73,7 @@ h3 {
   font-family: "Playfair Display", "Times New Roman", serif;
 }
 section {
-  scroll-margin-top: 90px;
+  scroll-margin-top: 40px;
   padding: 40px 8% 90px;
 }
 .navbar {
@@ -612,9 +612,13 @@ section {
 }
 
 @media (max-width: 768px) {
+  section {
+    scroll-margin-top: 40px;
+    padding: 30px 6% 70px;
+  }
   .navbar {
     padding: 14px 5%;
-    position: relative;
+    position: sticky;
   }
   .burger-toggle {
     display: flex;
@@ -673,5 +677,22 @@ section {
   }
   .section-title {
     font-size: 1.7rem;
+  }
+  .about-container {
+    display: block;
+  }
+  .img-tag {
+    display: inline-block;
+    position: static;
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+  .about-info {
+    display: inline-block;
+    width: 100%;
+  }
+  .about-me-list li b {
+    flex-basis: 100%;
   }
 }
