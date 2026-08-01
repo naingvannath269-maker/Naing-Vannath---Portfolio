@@ -397,6 +397,10 @@ section {
   box-shadow: var(--box-shadow);
   transition: var(--transition);
 }
+.project-card:hover {
+  box-shadow: 0 4px 15px rgba(53, 113, 243, 0.1);
+  transform: translateY(-5px);
+}
 
 .project-card img {
   width: 100%;
